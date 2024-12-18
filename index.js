@@ -49,10 +49,10 @@ const win = (who) => {
     turn.innerText = "Tie !!!"
   }
   else if(who === "O") {
-    turn.innerText = "Circle has won !!!"
+    turn.innerText = "Circle wins !!!"
   }
   else {
-    turn.innerText = "Cross has won !!!"
+    turn.innerText = "Cross wins !!!"
   }
 
 }
